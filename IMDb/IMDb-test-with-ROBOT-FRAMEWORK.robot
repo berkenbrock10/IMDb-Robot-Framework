@@ -19,8 +19,6 @@ Run test cases
     Test Menu
         Test Awards & Events categorie
     Test Menu
-        Test Celebs categorie
-    Test Menu
         Test Videos categorie
     Test Menu
         Test Community categorie
@@ -75,15 +73,6 @@ Test Awards & Events categorie
     Click Element               xpath://*[@id="imdbHeader"]/div[2]/aside/div/div[2]/div/div[3]/span/div/div/ul/a[1]
     Page Should contain         Oscars Red Carpet: All the Best Photos
     Page Should contain         Academy Awards: Presenters, Winners, and More
-
-
-Test Celebs categorie   
-    SeleniumLibrary.Wait Until Element Is Visible           xpath://*[@id="imdbHeader"]/div[2]/aside/div/div[2]/div/div[4]/span/div/div/ul/a[1]         timeout=10s
-    sleep                       0.3s
-    Click Element               xpath://*[@id="imdbHeader"]/div[2]/aside/div/div[2]/div/div[4]/span/div/div/ul/a[1]
-    Page Should contain         Birth Month Day
-    Page Should contain         Joe Russo
-    Page Should contain         Wendy Benson-Landes
 
 Test Videos categorie
     SeleniumLibrary.Wait Until Element Is Visible           xpath://*[@id="imdbHeader"]/div[2]/aside/div/div[2]/div/div[5]/span/div/div/ul/a[1]         timeout=10s
